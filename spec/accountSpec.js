@@ -1,8 +1,10 @@
 describe("BankAccount", function() {
 
-
-
     beforeEach(function() {
+      account = new Account(2000);
+    });
+
+    afterEach(function() {
       account = new Account(2000);
     });
 
