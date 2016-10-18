@@ -12,15 +12,22 @@ Account.prototype = {
     this._history.push(this._transactionClass);
     this._balance += amount;
     return this._transactionClass;
+  },
+
+  withdraw: function(amount){
+    this._transactionClass = new Transaction('withdrawal', amount);
+    this._history.push(this._transactionClass);
+    this._balance -= amount;
+    return this._transactionClass;
+  },
+
+  printStatement: function(){
+    console.log("History:");
+    var history = this._history;
+    for (var i = 0; i < history.length; i++) {
+      console.log(history[i]._date + " || " + history[i]._type + " || " + history[i]._amount);
+    }
+
   }
 
-};
-
-
-
-// helper functions
-
-function date(){
-  var date = new Date();
-  return date;
 };
