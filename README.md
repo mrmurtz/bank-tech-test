@@ -3,8 +3,14 @@
 
 My solution for the bank tech test in week 10 of Makers Academy.
 
-Language: JavaScript
-Testing framework: Jasmine
+- Language: JavaScript
+- Testing framework: Jasmine
+
+###Solution
+
+- Account class - holds the balance
+- History class - holds a transaction history and print function
+- Transaction class - creates instances of credit/debit transactions
 
 ---
 
