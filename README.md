@@ -1,6 +1,6 @@
 #Bank Tech test
 
-![alt tag](https://github.com/mrmurtz/bank-tech-test/blob/master/public/bank.jpg)
+![alt tag](https://github.com/mrmurtz/bank-tech-test/blob/master/public/giphy.gif)
 
 My solution for the bank tech test in week 10 of Makers Academy.
 
