@@ -11,14 +11,14 @@ Account.prototype = {
     this._balance += amount;
     this._transactionClass = new Transaction('deposit', amount, this._balance);
     this._history.push(this._transactionClass);
-    return this._transactionClass;
+    // return this._transactionClass;
   },
 
   withdraw: function(amount){
-    this._transactionClass = new Transaction('withdrawal', amount);
-    this._history.push(this._transactionClass);
     this._balance -= amount;
-    return this._transactionClass;
+    this._transactionClass = new Transaction('withdrawal', amount, this._balance);
+    this._history.push(this._transactionClass);
+    // return this._transactionClass;
   },
 
   printStatement: function(){
