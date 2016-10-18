@@ -3,8 +3,10 @@ describe("BankAccount", function() {
 
   describe("balance", function(){
     it("can hold a balance of £1000", function(){
-      expect(account._balance).toEq(1000);
+      expect(account._balance).toEqual(1000);
     });
+
+
   });
 
 
