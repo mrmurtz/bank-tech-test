@@ -8,6 +8,12 @@ Testing framework: Jasmine
 
 ---
 
+###Run tests
+
+Open `SpecRunner.html`
+
+---
+
 ###Initial Requirements
 
 Deposits, withdrawal
