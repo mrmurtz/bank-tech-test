@@ -1,5 +1,7 @@
 #Bank Tech test
 
+(https://github.com/mrmurtz/bank-tech-test/blob/master/public/bank.jpg)
+
 My solution for the bank tech test in week 10 of Makers Academy.
 
 - Language: JavaScript
