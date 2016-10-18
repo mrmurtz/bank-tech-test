@@ -6,9 +6,6 @@ function Account(initialDeposit, transactionClass){
 }
 
 Account.prototype = {
-  printStatement: function () {
-  console.log( date() + this._balance);
-  },
 
   deposit: function(amount){
     this._transactionClass = new Transaction('deposit', amount);
