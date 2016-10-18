@@ -9,9 +9,9 @@ My solution for the bank tech test in week 10 of Makers Academy.
 
 ###Solution
 
-- Account class - holds the balance
-- History class - holds a transaction history and print function
-- Transaction class - creates instances of credit/debit transactions
+- Account - holds the balance
+- History - holds a transaction history and print function
+- Transaction - creates instances of credit/debit transactions
 
 ---
 
