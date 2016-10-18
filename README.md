@@ -1,6 +1,4 @@
 #Bank Tech test
----
-(https://www.google.co.uk/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjFmvjV0eTPAhWHWRQKHfayCToQjRwIBw&url=https%3A%2F%2Fmoodle.glyndwr.ac.uk%2Fcourse%2Fview.php%3Fid%3D20%26section%3D12%26time%3D1472684400&psig=AFQjCNGHjl-KTSVwLmfIXQqMaYP89NgoCA&ust=1476889873435718)
 
 My solution for the bank tech test in week 10 of Makers Academy.
 
